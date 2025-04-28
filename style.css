@@ -1,0 +1,167 @@
+
+
+.top-header {
+    background-color: blue; 
+
+    color: white; 
+    padding: 1px 13px;
+    text-align: center; 
+    font-size: 0.9em; 
+    height: 1.5cm;
+  }
+  
+
+  .top-header .verified-text {
+    display: inline-flex; 
+    align-items: center; 
+    margin-left: 7%;
+    /* margin-top: 5%; */
+  }
+  
+  .top-header .verified-text i {
+    margin-right: 10px; 
+    margin-bottom: 5%;
+    
+  }
+  
+  .top-header .verified-text a {
+    color:white; 
+    text-decoration: none; 
+    margin-left: 10px; 
+    margin-bottom: 5%;
+  }
+  
+  .top-header .verified-text a:hover {
+    text-decoration: underline;
+  }
+
+
+  
+  .navigationbar{
+   
+    text-decoration: none;
+    overflow: visible;
+    margin-bottom: 0.7cm;
+    font-size: 140%;
+   margin-top: 1cm;
+   
+  
+    
+    
+    
+  }
+  nav ul{
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    gap: 1cm;
+    margin-right:5 cm;
+    
+    padding: 5%;
+    border-radius: 40px;
+    overflow: visible;
+   
+   
+   
+  }
+  nav a{
+   
+    text-decoration: none;
+    color: aliceblue;
+   
+  
+   
+  }
+  
+ 
+  .text {
+
+    background-image: url(images/images/crime.jpg);
+    display: flex;
+    background-size: cover; 
+    background-position: center; 
+    color: white; 
+    text-align: center; 
+    padding: 300px;
+    height: 37vh; 
+  
+   
+
+  
+  }
+
+  .images{
+   
+  
+  }
+
+  body{
+    margin: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  .text img{
+    height: 40px;
+  }
+
+  h1{
+    color:black;
+    font-size: 30px;
+    margin-left: 15%;
+  }
+h2{
+  color: white;
+  text-align: center;
+  margin-top: 2cm;
+  margin-bottom: 2cm;
+  margin-left: 25%;
+  
+}
+
+.link{
+  margin-left: 30%;
+  margin-right: 10cm;
+}
+
+  p{
+    margin-bottom: 6%;
+  }
+h1{
+  font-size: 400%;
+  margin-left: 30%;
+}
+
+
+@media only screen and (max-width: 400px){
+.text img{
+ width: 50px;
+ margin-left: 10%;
+}
+
+h1{
+  font-size: 30px;
+  /* margin-right: 40%; */
+}
+.top-header{
+  font-size: 10px;
+  color: black;
+  /* height: 1cm; */
+
+}
+nav ul{
+  gap: 0.1cm;
+  margin-right: -1cm;
+  margin-left: -10cm;
+  margin-top: 10%;
+  font-size: 10px;
+}
+body{
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin: 0;
+}
+
+
+
+}

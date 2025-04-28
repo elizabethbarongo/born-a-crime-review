@@ -1,0 +1,156 @@
+
+
+.noah{
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    min-height: 95vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image:url(images/images/city.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+body{
+    margin: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+p{
+
+    font-size: 27px;
+    color: white;
+
+}
+
+img{
+    height: 480px;
+    width: 1800px;
+
+}
+
+
+.navigationbar{
+    position: absolute;
+    text-decoration: none;
+    overflow: visible;
+    margin-top: 18cm;
+    margin-right: 65%;
+    
+    
+    
+  }
+  nav ul{
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    gap: 1cm;
+    margin-left: 30cm;
+    border: 1px solid black;
+    width: 26%;
+    padding: 1%;
+    border-radius: 40px;
+    overflow: visible;
+    background-color: black;
+   
+   
+   
+   
+  }
+  nav a{
+   
+    text-decoration: none;
+    color: aliceblue;
+   
+  }
+
+
+.top-header {
+    background-color: rgba(0, 0, 255, 0.678); 
+
+    color: white; 
+    padding: 15px 20px; 
+    text-align: center; 
+    font-size: 0.9em; 
+  }
+  
+
+  .top-header .verified-text {
+    display: inline-flex; 
+    align-items: center; 
+  }
+  
+  .top-header .verified-text i {
+    margin-right: 5px; 
+  }
+  
+  .top-header .verified-text a {
+    color: #ffc107; 
+    text-decoration: none; 
+    margin-left: 10px; 
+  }
+  
+  .top-header .verified-text a:hover {
+    text-decoration: underline;
+  }
+
+
+
+@media only screen and (max-width: 400px){
+
+
+  h1{
+
+    font-size: 15px;
+  }
+
+
+  .noah{
+    font-size: 5px;
+    flex-direction: column;
+    height: 100px;
+    width: 200px;
+    
+    
+  }
+
+  p{
+    font-size: 10px;
+  }
+
+
+.noah{
+  font-size: 10px;
+  
+}
+
+nav ul {
+  width: 5cm;
+  gap: 0.5cm;
+  margin-bottom: 8cm;
+    margin-left: 7cm;
+  
+}
+
+
+.top-header {
+  font-size: 10px;
+  
+  
+}
+
+
+
+
+
+
+
+}
+
+  
